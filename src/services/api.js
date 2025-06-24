@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'http://leoproti.com.br:8004',
+  baseURL: 'https://apipw.leoproti.com.br',
 });
