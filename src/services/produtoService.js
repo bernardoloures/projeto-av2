@@ -1,4 +1,4 @@
-import api from './api';
+import api from './Api';
 
 export const getProdutos = () => api.get('/produtos');
 export const getProdutoById = (id) => api.get(`/produtos/${id}`);
